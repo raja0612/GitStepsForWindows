@@ -1,0 +1,28 @@
+1. Create Repository on your GitHub Account with readme file.
+
+2. On your windows machine, Create Directory of your own to clone the repository.
+  ex: mkdir GitTutorial.
+
+3.Change Directory to newly created directory on your windows machine: 
+ ex: cd GitTutorial:
+
+4:Just make sure confirm , it's empty directory: (ex: dir or ls : no files)
+
+5.clone the git repository:
+
+  ex: git clone https://github.com/raja0612/GitStepsForWindows.git 
+
+6. Now see list of files : mkdir or ls 
+  you will see README.md
+
+7. Create your own files to commit
+   mkdir steps.txt.
+
+8. now see the git status
+
+   ex: git status
+
+  you will see newly created files in red color.
+
+9: add your local files to git
+   ex: git add steps.text
