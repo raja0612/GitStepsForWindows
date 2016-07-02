@@ -25,7 +25,7 @@
   you will observe untracked files in red color. (in my case Steps.txt)
 
 9. add your local files to git
-   command: git add steps.text
+   command: git add steps.text ( To add all files git add -A)
 
 10.   now see the git status:
   command: git status
