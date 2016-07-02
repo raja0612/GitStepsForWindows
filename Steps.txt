@@ -1,16 +1,16 @@
 1. Create Repository on your GitHub Account with readme file.
 
 2. On your windows machine, Create Directory of your own to clone the repository.
-  ex: mkdir GitTutorial.
+  command: mkdir GitTutorial.
 
 3.Change Directory to newly created directory on your windows machine: 
- ex: cd GitTutorial:
+ command: cd GitTutorial:
 
-4:Just make sure confirm , it's empty directory: (ex: dir or ls : no files)
+4:Just make sure confirm , it's empty directory: (command: dir or ls : no files)
 
 5.clone the git repository:
 
-  ex: git clone https://github.com/raja0612/GitStepsForWindows.git 
+  command: git clone https://github.com/raja0612/GitStepsForWindows.git 
 
 6. Now see list of files : mkdir or ls 
   you will see README.md
@@ -18,11 +18,45 @@
 7. Create your own files to commit
    mkdir steps.txt.
 
-8. now see the git status
+8. now see the git status 
 
-   ex: git status
+   command: git status
 
-  you will see newly created files in red color.
+  you will observe untracked files in red color. (in my case Steps.txt)
 
-9: add your local files to git
-   ex: git add steps.text
+9. add your local files to git
+   command: git add steps.text
+
+10.   now see the git status:
+  command: git status
+
+now you will obeserve "Changes to committeed" in green color
+  new file: Steps.txt
+
+11. Commit to Git
+
+  command: git commit -m "added steps.txt"
+
+12. The files still in your local machine it means not sync up with your git hub account
+
+   command:  git push
+
+ you will observe on your console like below
+
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 660 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/raja0612/GitStepsForWindows.git
+   7c8f11e..bd0f494  master -> master
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+ 13. To get other team developers changes.
+
+command: git pull
