@@ -62,4 +62,4 @@ To https://github.com/raja0612/GitStepsForWindows.git
 command: git pull
 
 
-14: if you commit the chnages wihout message , :wq to exit from screen
+14: if you commit the chnages wihout message , esc + :wq to exit from screen
