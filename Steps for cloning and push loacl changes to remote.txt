@@ -1,3 +1,5 @@
+Steps for cloning and push local changes to remote repository.
+
 1. Create Repository on your GitHub Account with readme file.
 
 2. On your windows machine, Create Directory of your own to clone the repository.
