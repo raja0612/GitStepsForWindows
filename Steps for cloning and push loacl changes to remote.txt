@@ -60,3 +60,6 @@ To https://github.com/raja0612/GitStepsForWindows.git
  13. To get other team developers changes.
 
 command: git pull
+
+
+14: if you commit the chnages wihout message , esc + :wq to exit from screen
