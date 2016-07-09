@@ -3,10 +3,10 @@ Step by step to set up git in windows
 
 Steps for adding your local Project to remote Github repository.
 
-1. Crate your new repository  without any README.md or license file on your github account (ex:( https://github.com/raja0612/Java8Features.git)
-2.Download abd Install git scm on your windows machine.(https://git-scm.com/download/win)
-3. On your local machine, go to project workspace directory (ex: C:\Users\RAJASHEKHAR\workspace\jpa\Java8Features)
-4.Initialize git repository (ex : git init)
+1. Crate your new repository  without any README.md or license file on your github account (after adding repository just copy the remote git url ex:( https://github.com/raja0612/Java8Features.git).
+2.Download and Install git scm on your windows machine.(from https://git-scm.com/download/win)
+3. On your local machine, go to project workspace directory from git bash ( ex in my case : cd C:\Users\RAJASHEKHAR\workspace\jpa\Java8Features)
+4.Initialize git repository  from there(ex : RAJASHEKHAR@OSHO MINGW64 C:\Users\RAJASHEKHAR\workspace\jpa\Java8Features (MASTER) $ git init)
 5. add README.md  , .ignore files ( ex: touch README.md , touch .ignore  , these two commands will create those files)
 6. add project description on README.md ( ex : vim README.md then enter "i" write text an then enter esc + :x)
 7. add any files which you dont want to push remote repo  on .ignore file, same like vim .ignore then press i then start typing \bin ,\.classpath \.settings \.project \target and then esc :x 
