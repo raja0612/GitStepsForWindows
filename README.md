@@ -3,7 +3,7 @@ Step by step to set up git in windows
 
 Steps for adding your local Project to remote Github repository.
 
-1. Crate your own repository wothout any README.md or license file (ex:( https://github.com/raja0612/Java8Features.git)
+1. Crate your new repository  without any README.md or license file on your github account (ex:( https://github.com/raja0612/Java8Features.git)
 2.Download abd Install git scm on your windows machine.(https://git-scm.com/download/win)
 3. On your local machine, go to project workspace directory (ex: C:\Users\RAJASHEKHAR\workspace\jpa\Java8Features)
 4.Initialize git repository (ex : git init)
